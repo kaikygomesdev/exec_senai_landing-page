@@ -1,4 +1,26 @@
-.red{
-border: 1px solid red;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+.hero > img {
+    width: 100%;
+    height: auto;
+}
+
+.menu {
+    padding: 10px 0;
+}
+
+.menu > ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    padding: 0;
+}
+
+li > a{
+    padding: 10px;
+    text-decoration: none;
+}
